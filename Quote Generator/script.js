@@ -3,14 +3,15 @@ const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
+let apiQuotes = [];
 
 // Get quote from API
-async function getQuote() {
+async function getQuotes() {
 	const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-	const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
+	const apiUrl = 'https://type.fit/api/quotes';
 	try {
 		const response = await fetch(proxyUrl + apiUrl);
-		const data = await response.json();
+		apiQuotes = await response.json();
 
 		// if unknown author, print unknown
 		if (data.quoteAuthor === "") {
@@ -27,7 +28,7 @@ async function getQuote() {
 		}
 		quoteText.innerText = data.quoteText;
 	} catch (error) {
-		getQuote();
+		getQuotes();
 
 	}
 }
@@ -41,4 +42,4 @@ function tweetQuote() {
 newQuoteBtn.addEventListener('click', getQuote);
 twitterBtn.addEventListener('click', tweetQuote)
 
-getQuote();
+getQuotes();
