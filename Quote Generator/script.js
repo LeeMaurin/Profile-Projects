@@ -6,7 +6,7 @@ const newQuoteBtn = document.getElementById('new-quote');
 
 let apiQuotes = [];
 
-//Show New 
+//Show New Quote
 function newQuote(){
 
 	// Pick a random quote from apiQuotes array
