@@ -4,9 +4,8 @@
 	--red-background-color: red;
 	--green-background-color: green;
 	--blue-background-color: blue;
-	
-
 }
+
 html {
 	box-sizing: border-box;
 }
@@ -34,6 +33,10 @@ h2 {
 	display: flex;
 	justify-content: center;
 	margin: 80px 0px 20px 0px;
+}
+
+#bottom-h2 {
+	margin-bottom: 40px;
 }
 
 .quote-container {
@@ -66,7 +69,7 @@ h2 {
 }
 
 .color-button{
-	margin: 10px 30px 90px 30px;
+	margin: 10px 30px 0px 30px;
 }
 
 #red-button {
@@ -79,6 +82,7 @@ h2 {
 
 #blue-button {
 	background-color: var(--blue-background-color);
+	
 }
 
 .button-container {
