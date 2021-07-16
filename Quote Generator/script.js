@@ -53,6 +53,14 @@ function tweetQuote() {
 // Event Listeners
 	newQuoteBtn.addEventListener('click', newQuote);
 	twitterBtn.addEventListener('click', tweetQuote);
+	document.getElementById("red-button").addEventListener
+	("click", () => {
+		document.documentElement.style.setProperty
+		('--body-background-color', 'red'),
+		document.documentElement.style.setProperty 
+		('--container-background-color', 'green') 
+	});
+
 
 // On Load
 getQuotes();
