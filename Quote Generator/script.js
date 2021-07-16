@@ -57,23 +57,23 @@ function tweetQuote() {
 	document.getElementById("red-button").addEventListener
 	("click", () => {
 		document.documentElement.style.setProperty
-		('--body-background-color', 'hsla(0, 83%, 73%, 0.40'),
+		('--body-background-color', 'hsla(0, 85%, 50%, 0.15'),
 		document.documentElement.style.setProperty 
-		('--container-background-color', '#c02b2be3') 
+		('--container-background-color', 'hsla(357, 85%, 50%, 1.0') 
 	});
 	document.getElementById("green-button").addEventListener
 	("click", () => {
 		document.documentElement.style.setProperty
-		('--body-background-color', '#85ce6f'),
+		('--body-background-color', 'hsl(120, 85%, 50%, 0.15'),
 		document.documentElement.style.setProperty 
-		('--container-background-color', '#3aaa49') 
+		('--container-background-color', 'hsla(145, 85%, 50%, 1.0') 
 	});
 	document.getElementById("blue-button").addEventListener
 	("click", () => {
 		document.documentElement.style.setProperty
-		('--body-background-color', '#476de7'),
+		('--body-background-color', 'hsla(225, 85%, 50%, 0.15'),
 		document.documentElement.style.setProperty 
-		('--container-background-color', '#0000cf');
+		('--container-background-color', 'hsla(205, 85%, 50%, 1.0');
 	});
 
 
