@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-	--red-button-color: hsl(0, 83%, 50%);
-	--green-button-color: #0b8a0b;
-	--blue-button-color: #0000ff;
+	--red-button-color: hsl(0, 85%, 50%);
+	--green-button-color: hsl(120, 85%, 50%);
+	--blue-button-color: hsl(240, 85%, 50%);
 
 }
 

@@ -57,7 +57,7 @@ function tweetQuote() {
 	document.getElementById("red-button").addEventListener
 	("click", () => {
 		document.documentElement.style.setProperty
-		('--body-background-color', '#f38080e3'),
+		('--body-background-color', 'hsla(0, 83%, 73%, 0.40'),
 		document.documentElement.style.setProperty 
 		('--container-background-color', '#c02b2be3') 
 	});
