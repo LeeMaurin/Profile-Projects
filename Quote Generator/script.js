@@ -53,12 +53,27 @@ function tweetQuote() {
 // Event Listeners
 	newQuoteBtn.addEventListener('click', newQuote);
 	twitterBtn.addEventListener('click', tweetQuote);
+	
 	document.getElementById("red-button").addEventListener
 	("click", () => {
 		document.documentElement.style.setProperty
-		('--body-background-color', '#e75555'),
+		('--body-background-color', '#f38080e3'),
 		document.documentElement.style.setProperty 
 		('--container-background-color', '#c02b2be3') 
+	});
+	document.getElementById("green-button").addEventListener
+	("click", () => {
+		document.documentElement.style.setProperty
+		('--body-background-color', '#85ce6f'),
+		document.documentElement.style.setProperty 
+		('--container-background-color', '#3aaa49') 
+	});
+	document.getElementById("blue-button").addEventListener
+	("click", () => {
+		document.documentElement.style.setProperty
+		('--body-background-color', '#476de7'),
+		document.documentElement.style.setProperty 
+		('--container-background-color', '#0000cf');
 	});
 
 

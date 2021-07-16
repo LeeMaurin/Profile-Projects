@@ -2,10 +2,8 @@
 
 :root {
 	--red-button-color: hsl(0, 83%, 50%);
-	--red-background-color: #eba8a8;
-  --red-container-color: #c02b2be3;
-	--green-button-color: hsl(120, 100%, 25%);
-	--blue-button-color: hsl(240, 100%, 50%);
+	--green-button-color: #0b8a0b;
+	--blue-button-color: #0000ff;
 
 }
 
