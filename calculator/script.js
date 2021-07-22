@@ -23,17 +23,16 @@ function addDecimal() {
 }
 
 const calculate = {
-  '/':(firstNumber, secondNumber) => firstValue / secondNumber,
+  '/': (firstNumber, secondNumber) => firstValue / secondNumber,
 
-  '*':(firstNumber, secondNumber) => firstValue * secondNumber,
+  '*': (firstNumber, secondNumber) => firstValue * secondNumber,
   
-  '+':(firstNumber, secondNumber) => firstValue + secondNumber,
+  '+': (firstNumber, secondNumber) => firstValue + secondNumber,
   
-  '-':(firstNumber, secondNumber) => firstValue - secondNumber,
+  '-': (firstNumber, secondNumber) => firstValue - secondNumber,
   
-  '=':(firstNumber, secondNumber) => firstValue = secondNumber,
-  
-}
+  '=': (firstNumber, secondNumber) => secondNumber,
+};
 
 function useOperator (operator) {
    const currentValue = Number(calculatorDisplay.textContent);
@@ -42,7 +41,10 @@ function useOperator (operator) {
     firstValue = currentValue;
   } else {
     console.log(firstValue, operatorValue, currentValue);
+    const calculation = calculate[operatorValue](firstValue, currentValue);
+    console.log('calculation', calculation);
   }
+
   awaitingNextValue = true;
   operatorValue = operator;
 }
