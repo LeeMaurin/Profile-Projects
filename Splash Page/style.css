@@ -15,7 +15,7 @@ body {
 .wrapper {
   position: relative;
   width: 1440px;
-  min-height: 100vh;
+  height: 1370px;
   margin: auto;
 }
 
@@ -100,7 +100,7 @@ body {
 
 .product-img {
   position: absolute;
-  height: 444px;
+  height: 222px;
   left: 737px;
   right: 479px;
   top: 1157px;
@@ -110,7 +110,7 @@ body {
 
 .orders-img {
   position: absolute;
-  height: 444px;
+  height: 470px;
   left: 479px;
   right: 737px;
   top: 913px;
@@ -120,7 +120,7 @@ body {
 
 .cart-img {
   position: absolute;
-  height: 444px;
+  height: 222px;
   left: 221px;
   right: 995px;
   top: 1157px;
@@ -130,7 +130,7 @@ body {
 
 .home-img {
   position: absolute;
-  height: 444px;
+  height: 470px;
   left: 995px;
   right: 221px;
   top: 908px;
