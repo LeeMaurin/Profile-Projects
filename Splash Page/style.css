@@ -77,3 +77,63 @@ body {
   height: 44.26px;
 }
 
+.main-container {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-container img {
+  height: 411.15px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.product-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.orders-img {
+  position: absolute;
+  height: 444px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.cart-img {
+  position: absolute;
+  height: 444px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.home-img {
+  position: absolute;
+  height: 444px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
