@@ -1,6 +1,6 @@
 $(function() {
-  // jQuery goes here...
-
-  // Uncomment this line to fade out the red box on page load
-   $(".red-box").fadeOut(2000);
+  $("p").css("background-color", "rgba(180, 180, 30, 0.8)");
+  $(".red-box").css("background-color", "rgba(180, 180, 30, 0.8)");
+  $("#list").css("background-color", "rgba(180, 180, 30, 0.8)");
+  $("input[type='text']").css("background-color", "rgba(180, 180, 30, 0.8)");
 });
