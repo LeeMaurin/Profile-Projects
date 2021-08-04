@@ -1,6 +1,5 @@
 $(function() {
-  // jQuery goes here...
-
-  // Uncomment this line to fade out the red box on page load
-   $(".red-box").fadeOut(2000);
+  $("li").filter(function(index) {
+    return index % 3 === 2;
+  }).css("background-color", "orange");
 });
